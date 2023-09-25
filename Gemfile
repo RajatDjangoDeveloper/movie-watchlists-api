@@ -46,3 +46,12 @@ group :development do
   # gem "spring"
 end
 
+# manually added 
+gem 'rack-cors'
+#  handles users and authentication.
+gem 'devise'
+# JWT tokens for user authentication.
+gem 'devise-jwt'
+# serialize ruby objects in JSON format
+gem 'jsonapi-serializer'
+
